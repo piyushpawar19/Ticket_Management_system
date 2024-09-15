@@ -2,6 +2,20 @@ Simple Ticket Management System
 A RESTful API built with Node.js and MongoDB that allows users to manage support tickets. 
 The API enables basic CRUD (Create, Read, Update, Delete) operations for handling support tickets with fields like title, description, status, creation date, and last updated date.
 
+Prerequisites:
+Node.js (v14.x or higher)
+MongoDB (locally or hosted on MongoDB Atlas)
+
+Steps:
+1- npm init
+2- install npm dependencies (express, mongoose, body-parser, dotenv)
+
+Configuration
+The configuration is managed via the .env file, where you can set the following variables:
+
+MONGO_URI: Your MongoDB connection string.
+PORT: The port on which the application will run (default is 5000).
+
 Features
 Create Ticket: Users can create new support tickets.
 Read Ticket: Retrieve all support tickets or a single ticket by its unique ID.
